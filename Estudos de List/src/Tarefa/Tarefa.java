@@ -1,4 +1,4 @@
-
+package Tarefa;
 
 public class Tarefa {
     private String descricao;
@@ -8,6 +8,9 @@ public class Tarefa {
     }
     public String getDescricao() {
         return descricao;
+    }
+    public int obterQuantidade() {
+        return descricao.length();
     }
 
 
